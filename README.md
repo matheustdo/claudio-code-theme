@@ -1,6 +1,10 @@
-# Claudio Code Theme
+<p align="center">
+  <img src="./icon.png" alt="Claudio Code Theme" width="160" />
+</p>
 
-A warm terracotta-and-cream theme pair for VS Code — soft backgrounds, pastel syntax, and muted accents for long coding sessions.
+<h1 align="center">Claudio Code Theme</h1>
+
+<p align="center">A warm terracotta-and-cream theme pair for VS Code — soft backgrounds, pastel syntax, and muted accents for long coding sessions.</p>
 
 ## Why
 
