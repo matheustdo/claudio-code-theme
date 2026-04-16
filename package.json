@@ -1,7 +1,7 @@
 {
-  "name": "claudio-code-dark",
-  "displayName": "Claudio Code Dark",
-  "description": "Dark theme inspired by a warm terracotta-and-cream palette — soft backgrounds, pastel syntax, and muted accents for long coding sessions.",
+  "name": "claudio-code-theme",
+  "displayName": "Claudio Code Theme",
+  "description": "A warm terracotta-and-cream theme pair (dark + light) — soft backgrounds, pastel syntax, and muted accents for long coding sessions.",
   "version": "1.0.0",
   "publisher": "claude-code-theme",
   "engines": {
@@ -11,24 +11,30 @@
     "Themes"
   ],
   "keywords": [
-    "claude",
-    "anthropic",
     "dark",
+    "light",
     "theme",
-    "warm"
+    "warm",
+    "terracotta",
+    "pastel"
   ],
   "contributes": {
     "themes": [
       {
         "label": "Claudio Code Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/claude-code-dark.json"
+        "path": "./themes/claudio-code-dark.json"
+      },
+      {
+        "label": "Claudio Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/claudio-code-light.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/claude-code-dark-theme"
+    "url": "https://github.com/your-username/claudio-code-theme"
   },
   "license": "MIT"
 }
