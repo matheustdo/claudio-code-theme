@@ -1,53 +1,42 @@
-# Claude Code Dark Theme
+# Claudio Code Theme
 
-Um tema escuro para VS Code inspirado no redesign do **Claude Code app** (abril 2025) — com fundos quase-pretos levemente quentes, acentos em terracota/laranja e texto em tons creme.
+A warm terracotta-and-cream theme pair for VS Code — soft backgrounds, pastel syntax, and muted accents for long coding sessions.
 
-## Variantes
+## Why
 
-| Variante | Descrição |
+This theme was created right after Anthropic shipped the **Claude Code desktop redesign** on **April 14, 2026** — a full rebuild of the desktop app around parallel agent sessions, with a refreshed visual identity: warm near-black surfaces, terracotta accents, and a calmer pastel palette for syntax. The new look was striking enough to want it everywhere, so this theme ports the same language to VS Code.
+
+Most VS Code themes pick a side: either cold and clinical (lots of pure blacks, blues, grays), or vibrant to the point of fatigue (high-saturation neons that wear the eyes out after a few hours). Claudio Code Theme aims at the middle path Claude Code itself struck — a warm, low-saturation palette with terracotta and cream replacing the usual orange-and-white. Syntax colors are intentionally distinct (rose for keywords, purple for functions, green for strings/tags, blue for declarations, terracotta for parameters) so each role is recognizable at a glance, but tuned down enough to stay calm during long sessions.
+
+## Variants
+
+| Variant | Use case |
 |---|---|
-| **Claude Code Dark** | Versão completa com bold em declarações e keywords |
-| **Claude Code Dark (No Bold)** | Mesmos tons, sem bold no código |
+| **Claudio Code Dark** | Low-light environments and long focus sessions — near-black background, cream text, terracotta accents |
+| **Claudio Code Light** | Daytime and bright rooms — warm off-white background, dark text, same terracotta accent for visual continuity |
 
-## Paleta de cores
+## Install
 
-| Role | Cor |
-|---|---|
-| Background principal | `#1a1815` |
-| Background sidebar / terminal | `#141210` |
-| Background mais escuro (activity bar) | `#100e0c` |
-| Texto principal | `#e8ddd0` |
-| Texto secundário | `#c8bfb4` |
-| Acento principal (terracota) | `#c8794a` |
-| Strings (verde salva) | `#8aaa78` |
-| Funções (dourado) | `#d4aa78` |
-| Tipos (verde-cinza) | `#a8c0aa` |
-| Números | `#e8a868` |
-| Comentários | `#6a6258` (italic) |
-| Error | `#c05040` |
+### From the Marketplace (CLI)
 
-## Instalação manual
-
-1. Copie a pasta `claude-code-dark-theme` para `~/.vscode/extensions/`
-2. Reinicie o VS Code
-3. Abra o Command Palette (`Cmd+Shift+P`) → `Preferences: Color Theme` → selecione **Claude Code Dark**
-
-## Fontes recomendadas
-
-Para uma experiência mais fiel ao app do Claude Code:
-- **JetBrains Mono** ou **Fira Code** (monospace com ligatures)
-- Tamanho: 13–14px
-- Line height: 1.5
-
-```json
-{
-  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 1.5,
-  "editor.fontLigatures": true
-}
+```bash
+code --install-extension matheustdo.claudio-code-theme
 ```
 
-## Licença
+Then open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) → **Preferences: Color Theme** → choose **Claudio Code Dark** or **Claudio Code Light**.
 
-MIT
+### From source (local .vsix)
+
+```bash
+git clone https://github.com/matheustdo/claudio-code-theme.git
+cd claudio-code-theme
+npx @vscode/vsce package
+code --install-extension claudio-code-theme-*.vsix
+```
+
+## Project Info
+
+- **Maintainer:** Matheus Teles
+- **Repository:** [matheustdo/claudio-code-theme](https://github.com/matheustdo/claudio-code-theme)
+- **Marketplace:** Claudio Code Theme
+- **License:** MIT
