@@ -36,7 +36,7 @@ code --install-extension claudio-code-theme-*.vsix
 
 ## Project Info
 
-- **Maintainer:** Matheus Teles
+- **Maintainer:** [Matheus Teles](https://github.com/matheustdo)
 - **Repository:** [matheustdo/claudio-code-theme](https://github.com/matheustdo/claudio-code-theme)
 - **Marketplace:** Claudio Code Theme
-- **License:** MIT
+- **License:** [MIT](./LICENSE)
