@@ -19,6 +19,14 @@ Most VS Code themes pick a side: either cold and clinical (lots of pure blacks, 
 | **Claudio Code Dark** | Low-light environments and long focus sessions — near-black background, cream text, terracotta accents |
 | **Claudio Code Light** | Daytime and bright rooms — warm off-white background, dark text, same terracotta accent for visual continuity |
 
+### Preview
+
+<p align="center">
+  <img src="./screenshots/dark.png" alt="Claudio Code Dark" width="48%" />
+  &nbsp;
+  <img src="./screenshots/light.png" alt="Claudio Code Light" width="48%" />
+</p>
+
 ## Install
 
 ### From the Marketplace (CLI)
