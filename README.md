@@ -27,13 +27,19 @@ This theme was created right after Anthropic shipped the **Claude Code desktop r
 
 ## Install
 
-### From the Marketplace (CLI)
+### VS Code, Cursor, Windsurf (VS Code Marketplace)
 
 ```bash
 code --install-extension matheus-teles.claudio-code-theme
 ```
 
-Then open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) → **Preferences: Color Theme** → choose **Claudio Code Dark** or **Claudio Code Light**.
+### VSCodium, Gitpod, Theia (Open VSX)
+
+```bash
+codium --install-extension matheus-teles.claudio-code-theme
+```
+
+After installing, open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) → **Preferences: Color Theme** → choose **Claudio Code Dark** or **Claudio Code Light**.
 
 ### From source (local .vsix)
 
@@ -48,5 +54,6 @@ code --install-extension claudio-code-theme-*.vsix
 
 - **Maintainer:** [Matheus Teles](https://github.com/matheustdo)
 - **Repository:** [matheustdo/claudio-code-theme](https://github.com/matheustdo/claudio-code-theme)
-- **Marketplace:** [Claudio Code Theme](https://marketplace.visualstudio.com/items?itemName=matheus-teles.claudio-code-theme)
+- **VS Code Marketplace:** [Claudio Code Theme](https://marketplace.visualstudio.com/items?itemName=matheus-teles.claudio-code-theme)
+- **Open VSX:** [Claudio Code Theme](https://open-vsx.org/extension/matheus-teles/claudio-code-theme)
 - **License:** [MIT](./LICENSE)
