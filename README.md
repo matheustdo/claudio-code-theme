@@ -48,5 +48,5 @@ code --install-extension claudio-code-theme-*.vsix
 
 - **Maintainer:** [Matheus Teles](https://github.com/matheustdo)
 - **Repository:** [matheustdo/claudio-code-theme](https://github.com/matheustdo/claudio-code-theme)
-- **Marketplace:** Claudio Code Theme
+- **Marketplace:** [Claudio Code Theme](https://marketplace.visualstudio.com/items?itemName=matheus-teles.claudio-code-theme)
 - **License:** [MIT](./LICENSE)
