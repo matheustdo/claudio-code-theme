@@ -2,7 +2,7 @@
   "name": "claudio-code-theme",
   "displayName": "Claudio Code Theme",
   "description": "A warm terracotta-and-cream theme pair (dark + light) — soft backgrounds, pastel syntax, and muted accents for long coding sessions.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "matheus-teles",
   "engines": {
     "vscode": "^1.60.0"
